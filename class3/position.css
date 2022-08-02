@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    background-color: rgb(19, 224, 220);
+    height: 400px;
+    width: 400px;
+    top: 80px;
+    left: 200px;
+
+}
+.box{
+    position: relative;
+    background-color: rgb(19, 224, 46);
+    height: 100px;
+    width: 100px;
+    top: 80px;
+    left: 100px;
+    
+
+}
