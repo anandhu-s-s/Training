@@ -1,0 +1,28 @@
+.items1{ grid-area: header;background-color: #f3b121; }
+.items2{ grid-area: nav; background-color:  #f3b121;}
+.items3{ grid-area: conttent;background-color: #f3b121 }
+.items4{ grid-area: aside;background-color:  #f3b121; }
+.items5{ grid-area: footer;background-color:  #f3b121; }
+    
+    
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+  
+    grid-template-areas: 'header header header header header header'
+    'nav nav  conttent conttent aside aside'
+    ' footer footer footer footer footer footer';
+     gap: 5px;
+     background-color: #ebdede;
+     padding: 10px;
+     text-align: center;
+  
+  font-size: 25px;
+}
+.items2,.items3,.items4{
+    display: grid;
+    place-items: center;
+}
+
+
