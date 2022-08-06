@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: rgb(218, 218, 218);
+}
+
+.container
+{
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  aspect-ratio: 1;
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(8,1fr);
+ 
+ 
+}
+.pieces{
+  display: grid;
+  place-items: center;
+}
+.pieces img{
+  width: 30%;
+  
+}
